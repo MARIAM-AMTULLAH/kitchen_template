@@ -1,0 +1,63 @@
+
+.section-container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2px;
+    margin-top: 10px;
+}
+.image-description-container h2,.pink {
+    color: rgb(225, 45, 129);
+}
+
+.popular-recipe-container h1{
+    color: rgb(225, 45, 129);
+
+}
+.black{
+    color: black;
+}
+.nav-section{
+    background-color: grey;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4px;
+    width: 100%;
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 19px;
+    padding-left: 15px;
+    background-color: rgb(192, 190, 190);
+    color: azure;
+    width: 100%;
+
+}
+.nav-links a:hover{
+    color: black;
+    background-color: azure;
+}
+
+a{text-decoration: none;
+color: aliceblue;
+padding: 5px;}
+
+.image-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 90px;
+    
+}
+.popular-recipe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 70px;
+    width: 300px;
+}
